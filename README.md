@@ -6,9 +6,9 @@
 </h1>
 
 # Indice
-- [Sobre](#-Sobre)
-- [Tecnologias utilizadas](#-Tecnologias-utilizadas)
-- [Como baixar o projeto](#-Como-baixar-o-projeto)
+- [Sobre](#-sobre)
+- [Tecnologias utilizadas](#-tecnologias-utilizadas)
+- [Como baixar o projeto](#-como-baixar-o-projeto)
 
 
 
