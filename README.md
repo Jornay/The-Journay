@@ -12,13 +12,13 @@
 
 
 
-## 📋**Sobre**
+## 📋 **Sobre**
 
 O projeto **The Journey** é um jogo desenvolvido durante a minha graduação, de maneira mais precisa, esse Jogo seria o projeto de conclusão da disciplina.
 
 ---
 
-## 🔬Tecnologias utilizadas 
+## 🔬 Tecnologias utilizadas 
 
 O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
@@ -26,7 +26,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 - [3ds-Max](https://www.autodesk.com.br/products/3ds-max/overview?plc=3DSMAX&term=1-YEAR&support=ADVANCED&quantity=1)
 - [C#](https://unity.com/pt/how-to/beginner-game-coding-resources)
 ---
-## 💾Como baixar o projeto
+## 💾 Como baixar o projeto
 
 Clonando o repositório a partir do git-bash:
  ```bash
