@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class HealthSystem : MonoBehaviour
  {
@@ -12,14 +13,22 @@ public class HealthSystem : MonoBehaviour
     public float healthBarYOffset = 1f;
 
     public int health;
- 
+
     void Update()
     {
+        if(transform.position.y < -40)
+        {
+            Destroy(gameObject);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            Destroy(GameObject.FindWithTag("PlayerHealthBar"));
+        }
+
         PositionHealthBar();
         ChangeHealth();
         if (health <= 0)
             {
                 Destroy(gameObject);
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
                 Destroy (GameObject.FindWithTag("PlayerHealthBar"));
             }
     }

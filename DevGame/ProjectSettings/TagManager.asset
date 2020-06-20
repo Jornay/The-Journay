@@ -8,6 +8,8 @@ TagManager:
   - PlayerHealthBar
   - Enemy1HealthBar
   - Cenario
+  - BOSS
+  - BOSSHealthSystem
   layers:
   - Default
   - TransparentFX

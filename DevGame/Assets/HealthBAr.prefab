@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1519841122397558839}
   - component: {fileID: 6681578563611020456}
-  m_Layer: 5
+  m_Layer: 10
   m_Name: HealthSlider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -83,7 +83,7 @@ MonoBehaviour:
   m_MinValue: 0
   m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 0
+  m_Value: 1
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -98,7 +98,7 @@ GameObject:
   - component: {fileID: 7072845280135544133}
   - component: {fileID: 2987886808072090006}
   - component: {fileID: 7788880365405687166}
-  m_Layer: 5
+  m_Layer: 10
   m_Name: HealthFill
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -171,7 +171,7 @@ GameObject:
   - component: {fileID: 1849825443344230576}
   - component: {fileID: 877912112056217963}
   - component: {fileID: 6467534785110714814}
-  m_Layer: 5
+  m_Layer: 10
   m_Name: HealthBarBacking
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -243,7 +243,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2714223545013846270}
-  m_Layer: 5
+  m_Layer: 10
   m_Name: HealthFillArea
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -282,9 +282,9 @@ GameObject:
   - component: {fileID: 7309594516633449796}
   - component: {fileID: 4654672457871587881}
   - component: {fileID: 4576695122614702870}
-  m_Layer: 5
+  m_Layer: 10
   m_Name: HealthBAr
-  m_TagString: Untagged
+  m_TagString: PlayerHealthBar
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -306,7 +306,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -15.94, y: 1.67}
+  m_AnchoredPosition: {x: -15.940002, y: 1.6700134}
   m_SizeDelta: {x: 2.452, y: 0.259}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!223 &7309594516633449796
@@ -328,7 +328,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_TargetDisplay: 0
 --- !u!114 &4654672457871587881
 MonoBehaviour:

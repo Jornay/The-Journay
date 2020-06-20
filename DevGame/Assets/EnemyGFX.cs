@@ -7,6 +7,11 @@ public class EnemyGFX : MonoBehaviour
 {
     public AIPath aiPath;
     
+    private void Start()
+    {
+        aiPath = GetComponent<AIPath>();
+    }
+
     void Update()
     {
         if(aiPath.desiredVelocity.x >= 0.01f)

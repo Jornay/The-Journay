@@ -19,7 +19,7 @@ public class PlayerAttack : MonoBehaviour
         {
             if(Input.GetButtonDown("Fire1"))
             {
-                camAnim.SetTrigger("shake");
+                //camAnim.SetTrigger("shake");
                 playerAnim.SetTrigger("attack");
                 Collider2D[] enemiesToDamage = Physics2D.OverlapCircleAll(attackPos.position, attackRange, whatIsEnemies);
                 for (int i = 0; i < enemiesToDamage.Length; i++)
